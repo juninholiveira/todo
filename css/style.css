@@ -134,6 +134,7 @@ body{
     height:40px;
     background-color: var(--main-color);
     padding: 10px;
+    border-radius: 15px;
 
     box-shadow:
     -7px -7px 7px 0 rgba(255,255,255,1),
