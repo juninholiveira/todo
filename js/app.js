@@ -56,7 +56,7 @@ clear.addEventListener
 //Exibe a data de hoje
 const options = {weekday:"long", month:"short", day:"numeric"}
 const today = new Date()
-dateElement.innerHTML = today.toLocaleDateString("en-US", options)
+dateElement.innerHTML = today.toLocaleDateString("pt-BR", options)
 
 //Função que adiciona um TODO item
 function addToDo(toDo, id, done, trash)
